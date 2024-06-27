@@ -48,26 +48,25 @@ const QuizDetailsScreen = () => {
     <PageCenter light justifyCenter>
       <CenterCardContainer>
         <LogoContainer>
-          <AppLogo />
+       
         </LogoContainer>
-        <AppTitle>XEVEN QUIZ</AppTitle>
+        <AppTitle>Chey Quiz</AppTitle>
         <DetailTextContainer>
           <DetailText>
-            Selected Quiz Topic: <HighlightedText>{selectedQuizTopic}</HighlightedText>
+           Onderwerpen <HighlightedText>Fotootjes, Typische Chey dingen en meer.</HighlightedText>
           </DetailText>
           <DetailText>
-            Total questions to attempt:{' '}
+            Aantal vragen{' '}
             <HighlightedText>{totalQuestions}</HighlightedText>
           </DetailText>
           <DetailText>
-            Score in total: <HighlightedText>{totalScore}</HighlightedText>
+            Te behalen score: <HighlightedText>{totalScore}</HighlightedText>
           </DetailText>
           <DetailText>
-            Total time: <HighlightedText>{convertSeconds(totalTime)}</HighlightedText>
+            Totale tijd <HighlightedText>{convertSeconds(totalTime)}</HighlightedText>
           </DetailText>
           <DetailText>
-            To save time, you can skip questions. Skipped questions will show up at the
-            end of the quiz.
+            Heb jij het in je om de geheime prijs te winnen?
           </DetailText>
         </DetailTextContainer>
         <Button

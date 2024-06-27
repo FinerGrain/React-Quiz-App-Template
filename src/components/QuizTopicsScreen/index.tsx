@@ -89,12 +89,15 @@ const QuizTopicsScreen: React.FC = () => {
     <PageCenter light justifyCenter>
       <CenterCardContainer>
         <LogoContainer>
-          <AppLogo />
         </LogoContainer>
         <Heading>
-          WELCOME TO <HighlightedText> XEVEN QUIZ</HighlightedText>
+          Zoals we allemaal weten is onze lieve Cheyenne <HighlightedText> 21 Jaar oud geworden!</HighlightedText>
         </Heading>
-        <DetailText>Select topic below to start your Quiz.</DetailText>
+        <h2>Zoals we weten vallen er prijzen te winnen, </h2>
+        <br></br>
+        <h2>Maaar deze moeten wel gewonnen worden.</h2>
+        <br></br>
+        <DetailText>Aanschouw hieronder de prijzen!</DetailText>
         <SelectButtonContainer>
           {quizTopics.map(({ title, icon, disabled }) => (
             <SelectButton
@@ -108,7 +111,7 @@ const QuizTopicsScreen: React.FC = () => {
             </SelectButton>
           ))}
         </SelectButtonContainer>
-        <Button text="Continue" onClick={goToQuizDetailsScreen} bold />
+        <Button text="Begin hier de Chey quiz" onClick={goToQuizDetailsScreen} bold />
       </CenterCardContainer>
     </PageCenter>
   )

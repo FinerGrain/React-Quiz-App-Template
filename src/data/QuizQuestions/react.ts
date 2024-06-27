@@ -5,85 +5,68 @@
 
 import { Topic } from '.'
 import CodeSnippet1 from '../../assets/images/code-snippet-1.png'
+import Bijtchey from '../../assets/images/Cheytjeboos.png'
+import Dronken from '../../assets/images/Dronken.png'
+import Samen from '../../assets/images/samen.jpg'
 
 export const react: Topic = {
   topic: 'React',
   level: 'Intermediate',
-  totalQuestions: 11,
-  totalScore: 95,
+  totalQuestions: 10,
+  totalScore: 100,
   totalTime: 600,
   questions: [
     {
-      question: 'What is JSX in React?',
+      question: 'Wat doet Cheyenne het allerliefst als ze alcohol heeft gedronken?',
       choices: [
-        'A syntax extension for JavaScript that allows writing HTML-like code in JavaScript',
-        'A state management library for React applications',
-        'A build tool for bundling React applications',
-        'A testing framework for React components',
+        'Feesten',
+        'Spelletjes',
+        'Sporten',
+        'Slapen',
       ],
       type: 'MCQs',
+      image: Dronken,
       correctAnswers: [
-        'A syntax extension for JavaScript that allows writing HTML-like code in JavaScript',
+        'Slapen',
       ],
       score: 10,
     },
+ 
+    
     {
-      question: 'React components must always return a single JSX element.',
-      choices: ['True', 'False'],
-      type: 'boolean',
-      correctAnswers: ['True'],
-      score: 5,
-    },
-    {
-      question: 'What is the purpose of React components?',
+      question: 'Waar zijn deze Fotootjes gemaakt',
       choices: [
-        'To handle HTTP requests and fetch data from APIs',
-        'To manage the state of a React application',
-        'To define the structure and appearance of the user interface',
-        'To handle user interactions and events',
+        'Barcelona',
+        'Budapest',
+        'Ardenne',
+        'Londen',
       ],
       type: 'MCQs',
+      image: Bijtchey,
       correctAnswers: ['To define the structure and appearance of the user interface'],
       score: 10,
     },
     {
       question:
-        'Which of the following are valid React lifecycle methods? (Select all that apply)',
+        'Hoelang hebben Cheyenne en Simon al een relatie?',
       choices: [
-        'componentWillMount',
-        'componentDidMount',
-        'componentWillUpdate',
-        'componentDidUpdate',
+        '2 Jaar 3 maanden en 16 dagen',
+        '2 Jaar 4 Maanden en 15 Dagen',
+        '2 Jaar 4 Maanden en 13 Dagen',
+        '2 Jaar 5 Maanden en 14 Dagen',
+        '2 Jaar 3 Maanden en 12 Dagen',
+        '2 Jaar 6 Maanden en 11 Dagen',
+        
       ],
       type: 'MAQs',
+      image: Samen,
       correctAnswers: ['componentDidMount', 'componentWillUpdate', 'componentDidUpdate'],
       score: 10,
     },
     {
-      question: 'What will be the output of the following React code?',
-      code: `import React, { useState } from 'react';
-
-const Counter = () => {
-  const [count, setCount] = useState(0);
-
-  const increment = () => {
-    setCount(count + 1);
-  };
-
-  return (
-    <div>
-      <p>Count: {count}</p>
-      <button onClick={increment}>Increment</button>
-    </div>
-  );
-};
-
-const App = () => {
-  return <Counter />;
-};
-
-export default App;`,
-      choices: ['Count: 0', 'Count: 1', 'Count: undefined', 'An error will occur'],
+      question: 'Welke van de 3 doet Cheyenne het liefst',
+      image: CodeSnippet1,
+      choices: ['Fietsen', 'Eten', 'Naar het strand',],
       type: 'MCQs',
       correctAnswers: ['Count: 0'],
       score: 10,
@@ -165,11 +148,11 @@ export default App;`,
       score: 10,
     },
     {
-      question: 'React uses a virtual DOM to optimize rendering performance.',
-      choices: ['True', 'False'],
+      question: 'Is Simon het beste vriendje ?',
+      choices: ['True', 'True'],
       type: 'boolean',
       correctAnswers: ['True'],
-      score: 5,
+      score: 15,
     },
   ],
 }
