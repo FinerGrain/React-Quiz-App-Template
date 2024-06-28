@@ -26,7 +26,7 @@ export const quizTopics: QuizTopic[] = [
     icon: <JavaScript />,
   },
   {
-    title: 'Weekendje weg ergens in Nederland - 60 Punten',
+    title: 'Weekendje weg in NL - 60 Punten',
     icon: <Django />,
   },
  
