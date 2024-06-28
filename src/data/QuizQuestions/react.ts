@@ -4,10 +4,16 @@
 // 3. MAQs | Multiple Answers | multiple
 
 import { Topic } from '.'
-import CodeSnippet1 from '../../assets/images/code-snippet-1.png'
 import Bijtchey from '../../assets/images/Cheytjeboos.png'
 import Dronken from '../../assets/images/Dronken.png'
 import Samen from '../../assets/images/samen.jpg'
+import Alles from '../../assets/images/Alles.png'
+import Chocolade from '../../assets/images/Chocolade.jpg'
+import Schaapje from '../../assets/images/Schaapje.jpg'
+import Neus from '../../assets/images/neus.jpg'
+import Au from '../../assets/images/Au.jpg'
+import Cute from '../../assets/images/Cute.jpg'
+import Fiasco from '../../assets/images/Fiasco.png'
 
 export const react: Topic = {
   topic: 'React',
@@ -60,98 +66,85 @@ export const react: Topic = {
       ],
       type: 'MAQs',
       image: Samen,
-      correctAnswers: ['componentDidMount', 'componentWillUpdate', 'componentDidUpdate'],
+      correctAnswers: ['2 Jaar 4 Maanden en 15 Dagen'],
       score: 10,
     },
     {
       question: 'Welke van de 3 doet Cheyenne het liefst',
-      image: CodeSnippet1,
       choices: ['Fietsen', 'Eten', 'Naar het strand',],
       type: 'MCQs',
-      correctAnswers: ['Count: 0'],
+      image: Alles,
+      correctAnswers: ['Naar het strand'],
       score: 10,
     },
     {
       question:
-        'In React, props are used to pass data from parent components to child components.',
-      choices: ['True', 'False'],
+        'Cheyenne is een dierenvriend',
+      choices: ['Ja tuurlijk', 'Nee ze haat dieren'],
+      image: Schaapje,
       type: 'boolean',
-      correctAnswers: ['True'],
+      correctAnswers: ['Ja tuurlijk'],
       score: 5,
     },
     {
-      question: 'What is the output of the following code snippet?',
-      image: CodeSnippet1,
-      choices: ['0', '1', '2', 'undefined'],
+      question: 'Hoe ver kan Cheyenne schieten met pijl en boog?',
+      image: Neus,
+      choices: ['10 meter', '30 meter', '50 meter', '80 meter+'],
       type: 'MCQs',
-      correctAnswers: ['0'],
+      correctAnswers: ['80 meter+'],
       score: 10,
     },
     {
       question:
-        'Which of the following are valid ways to conditionally render content in React? (Select all that apply)',
+        'Wat was er hier aan de hand?',
       choices: [
-        'Using the if-else statement',
-        'Using the ternary operator',
-        'Using the switch statement',
-        'Using the && operator',
+        'Cheyenne had gevochten met een beer',
+        'Simon heeft Cheyenne mishandeld',
+        'Cheyenne had jeuk',
+        'Cheyenne was van de scooter gepleurd',
+        
       ],
       type: 'MAQs',
+      image: Au,
       correctAnswers: [
-        'Using the if-else statement',
-        'Using the ternary operator',
-        'Using the && operator',
+        'Cheyenne was van de scooter gepleurd',
       ],
       score: 10,
     },
     {
-      question: 'In React, what is the purpose of keys in lists?',
+      question: 'Waar wil Cheyenne het allerliefst heen op vakantie?',
       choices: [
-        'To provide a unique identifier for each item in the list',
-        'To control the order of items in the list',
-        'To enable sorting and filtering of the list',
-        'To handle user interactions within the list',
+        'Madeira',
+        'Indonesië',
+        'Hawaï',
+        'Zuid-Afrika',
       ],
       type: 'MCQs',
-      correctAnswers: ['To provide a unique identifier for each item in the list'],
+      image: Cute,
+      correctAnswers: ['Hawaï'],
       score: 10,
     },
     {
-      question: 'What will be the result of the following React code?',
-      code: `import React from 'react';
-
-class Button extends React.Component {
-  handleClick() {
-    console.log('Button clicked');
-  }
-
-  render() {
-    return <button onClick={this.handleClick}>Click me</button>;
-  }
-}
-
-const App = () => {
-  return <Button />;
-};
-
-export default App;`,
+      question: 'Wat is Cheyenne haar favoriete Chocolade reep',
       choices: [
-        'The "Button clicked" message will be logged to the console when the button is clicked',
-        'The button will not respond to the click event',
-        'An error will occur due to the incorrect usage of onClick',
-        'The button will display but nothing will happen when clicked',
+        'Milka Oreo',
+        'Jumbo Peanut Carmel',
+        'Tony Chocolonely salted caramel',
+        'Lidl chocolade reep',
       ],
       type: 'MCQs',
+      image: Chocolade,
       correctAnswers: [
-        'The "Button clicked" message will be logged to the console when the button is clicked',
+        'Jumbo Peanut Carmel',
       ],
       score: 10,
     },
     {
       question: 'Is Simon het beste vriendje ?',
-      choices: ['True', 'True'],
+      choices: ['Ja', 'Ja echt heel erg', 'Ja Ja','Ja extreem','Ja duhh','Jaaaaaaaaa',],
       type: 'boolean',
-      correctAnswers: ['True'],
+      image: Fiasco,
+      correctAnswers: ['Ja', 'Ja echt heel erg', 'Ja Ja','Ja extreem','Ja duhh','Jaaaaaaaaa',],
       score: 15,
     },
   ],

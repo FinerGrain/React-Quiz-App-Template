@@ -128,7 +128,7 @@ const ResultScreen: FC = () => {
   return (
     <ResultScreenContainer>
       <LogoContainer>
-        <AppLogo />
+        
       </LogoContainer>
       <InnerContainer>
         <ResultOverview result={result} />
@@ -187,7 +187,7 @@ const ResultScreen: FC = () => {
       </InnerContainer>
       <Flex flxEnd>
         <Button
-          text="RETRY"
+          text="Opnieuww"
           onClick={onClickRetry}
           icon={<Refresh />}
           iconPosition="left"
