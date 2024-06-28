@@ -93,9 +93,7 @@ const QuizTopicsScreen: React.FC = () => {
         <Heading>
           Zoals we allemaal weten is onze lieve Cheyenne <HighlightedText> 21 Jaar oud geworden!</HighlightedText>
         </Heading>
-        <h2>Zoals we weten vallen er prijzen te winnen, </h2>
-        <br></br>
-        <h2>Maaar deze moeten wel gewonnen worden.</h2>
+        <h2>Uiteraard zijn er prijzen, Maaar deze moeten wel gewonnen worden </h2>
         <br></br>
         <DetailText>Aanschouw hieronder de prijzen! Wel alleen te winnen door Chey natuurlijk duhh.</DetailText>
         <SelectButtonContainer>
