@@ -97,7 +97,7 @@ const QuizTopicsScreen: React.FC = () => {
         <br></br>
         <h2>Maaar deze moeten wel gewonnen worden.</h2>
         <br></br>
-        <DetailText>Aanschouw hieronder de prijzen!</DetailText>
+        <DetailText>Aanschouw hieronder de prijzen! Wel alleen te winnen door Chey natuurlijk duhh.</DetailText>
         <SelectButtonContainer>
           {quizTopics.map(({ title, icon, disabled }) => (
             <SelectButton
