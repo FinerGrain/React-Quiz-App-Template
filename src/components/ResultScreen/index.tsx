@@ -187,13 +187,16 @@ const ResultScreen: FC = () => {
       </InnerContainer>
       <Flex flxEnd>
         <Button
-          text="Opnieuww"
+          text="Opnieuw"
           onClick={onClickRetry}
           icon={<Refresh />}
           iconPosition="left"
           bold
+          
         />
+        
       </Flex>
+      <a href="https://cake-algebra-c10.notion.site/Vakantie-Voucher-Glasgow-8b69035fdd18426f8c7e374c885bed1e?pvs=4" >Prijs voor Chey</a>
     </ResultScreenContainer>
   )
 }

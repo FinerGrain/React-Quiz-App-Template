@@ -35,7 +35,7 @@ const ResultOverview: FC<ResultOverviewProps> = ({ result }) => {
 
   // Passed if 60 or more than 60% marks
   const calculateStatus =
-    (obtainedScore / quizDetails.totalScore) * 100 >= 60 ? 'HOOFDPRIJS!' : 'Loser...'
+    (obtainedScore / quizDetails.totalScore) * 100 >= 60 ? 'HOOFDPRIJS!' : 'Nee loser...'
 
   return (
     <ResultOverviewStyle>
@@ -52,7 +52,7 @@ const ResultOverview: FC<ResultOverviewProps> = ({ result }) => {
         Tijd gespendeerd:<HighlightedText> {convertSeconds(endTime)} </HighlightedText>
       </p>
       <p>
-        Status:<HighlightedText> {calculateStatus}</HighlightedText>
+        Prijs:<HighlightedText> {calculateStatus}</HighlightedText>
       </p>
     </ResultOverviewStyle>
   )

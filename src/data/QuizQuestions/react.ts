@@ -49,7 +49,7 @@ export const react: Topic = {
       ],
       type: 'MCQs',
       image: Bijtchey,
-      correctAnswers: ['To define the structure and appearance of the user interface'],
+      correctAnswers: ['Budapest'],
       score: 10,
     },
     {
