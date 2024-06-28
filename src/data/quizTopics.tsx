@@ -22,11 +22,16 @@ export const quizTopics: QuizTopic[] = [
     icon: <ReactIcon />,
   },
   {
-    title: 'Down Under - 40 Punten',
+    title: 'Down Under / Diner + Activiteit - 40 Punten',
     icon: <JavaScript />,
   },
   {
-    title: 'Geheim Cadeau - 60 Punten',
+    title: 'Weekendje weg ergens in Nederland - 60 Punten',
+    icon: <Django />,
+  },
+ 
+  {
+    title: 'Geheim Cadeau - 80 Punten',
     icon: <Python />,
   },
  
